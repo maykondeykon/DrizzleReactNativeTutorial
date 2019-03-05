@@ -29,6 +29,7 @@ export default class App extends Component<Props> {
                     <Text>Loading...</Text>
                 ) : (
                     <View>
+                        <Text>Address: {this.state.drizzleState.accounts[0]} </Text>
                         <ReadString
                             drizzle={this.props.drizzle}
                             drizzleState={this.state.drizzleState}

@@ -15,7 +15,7 @@ class SetString extends React.Component {
             from: drizzleState.accounts[0]
         });
         this.setState({stackId});
-    }
+    };
 
     getTxStatus = () => {
         const {transactions, transactionStack} = this.props.drizzleState;
